@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+     .photo
+     {
+         border: 1px solid red;
+         width: 600px;
+         height: 600px;
+         text-align: center;
+         vertical-align: middle;
+         margin: 0 auto;
+     }
+     .photo::before{
+         content:"";
+         display: inline-block;
+         height: 100%;
+         vertical-align: middle;
+     }
+     .photo>img{
+         vertical-align: middle;
+     }
+    </style>
+	</head>
+	<body>
+		<div class="photo">
+			<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1527691643994&di=cabb64a85cd8106f10d65122d574c829&imgtype=0&src=http%3A%2F%2Fimg.duoziwang.com%2F2016%2F11%2F25%2F152455101365.jpg">
+		</div>
+	</body>
+</html>
